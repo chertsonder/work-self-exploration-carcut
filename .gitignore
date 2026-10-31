@@ -1,0 +1,34 @@
+# 环境与密钥
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# 模型与缓存
+cache/
+hf-cache/
+
+# 输入/输出大文件
+input/
+output/
+output_test/
+
+# ffmpeg 便携版二进制（>100MB，超 GitHub 限制，请自行下载放入或加入 PATH）
+tools/ffmpeg/
+
+# 本地临时音频
+*.tmp.mp3
+probe_seg3.wav
+patch_seg*.wav
+tts_seg*.wav
+*.wav
+
+# 素材与压缩包
+music.mp3
+*.zip
+
+# IDE
+.idea/
+.vscode/

@@ -1,0 +1,8 @@
+dashscope>=1.20.0
+requests>=2.31.0
+faster-whisper>=1.0.0
+edge-tts>=6.1.0
+cn2an>=0.1.24
+pypinyin>=0.51.0
+zhconv>=1.4.3
+PyYAML>=6.0
